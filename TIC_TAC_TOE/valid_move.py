@@ -11,7 +11,7 @@ from tic_tac_toe_game import Game
 from tic_tac_toe_game import board_setup
 from tic_tac_toe_game import get_name
 from get_winning import get_winning_combination
-from process_move import process_move
+from processing_move import process_move
 
 
 def is_move_valid(self, move):
