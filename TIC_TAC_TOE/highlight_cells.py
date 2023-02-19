@@ -29,4 +29,4 @@ def cells_highlight(self):
     '''Handles the coloration of the board cells'''
     for button, coordinates in self.cells.items():
         if coordinates in self.game.winner_combination:
-            button.config(highlightbackground="orange")
+            button.config(highlightbackground="red")
