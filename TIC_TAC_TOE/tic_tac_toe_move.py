@@ -4,11 +4,11 @@
 import tkinter as kin
 from itertools import cycle
 from tkinter import font
-from typing import NamedTuple
-from player import Player
+from typing import NamedTuple as NT
+from tic_tac_toe_player import Player
 
 
-class Move(NamedTuple):
+class Move(NT):
     '''Move class that inherited NamedTuple class of typing module'''
     row: int
     col: int
