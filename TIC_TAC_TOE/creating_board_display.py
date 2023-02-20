@@ -18,7 +18,7 @@ from processing_move import process_move
 from is_winner import any_winner
 from game_tied import is_tied
 from alternate_player import switch_player
-from creating_grid import create_board_grid
+from reset_game import game_reset
 from reset_board import board_reset
 
 
