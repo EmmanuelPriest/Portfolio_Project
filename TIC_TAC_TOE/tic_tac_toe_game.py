@@ -25,7 +25,6 @@ class Game:
         self.board_setup()
         self.name = self.get_name()
 
-
     def board_setup(self):
         '''Setting up the board'''
         self.current_moves = [
