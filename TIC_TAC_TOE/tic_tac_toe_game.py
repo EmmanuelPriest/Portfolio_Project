@@ -12,7 +12,7 @@ from get_winning import get_winning_combination
 
 class Game:
     '''Describes the game logic'''
-    def __init__(self, players=DEFAULT_PLAYERS, board_size=BOARD_SIZE, type):
+    def __init__(self, type, players=DEFAULT_PLAYERS, board_size=BOARD_SIZE):
         '''Initializes the game logic'''
         self.players = cycle(players)
         self.board_size = board_size
