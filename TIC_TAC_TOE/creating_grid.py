@@ -19,7 +19,7 @@ from is_winner import any_winner
 from game_tied import is_tied
 from alternate_player import switch_player
 from creating_board_display import create_board_display
-from reset_board import board_reset
+from reset_game import game_reset
 from game_play import play
 
 
