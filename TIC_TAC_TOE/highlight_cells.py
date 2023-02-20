@@ -23,6 +23,8 @@ from creating_grid import create_board_grid
 from reset_board import board_reset
 from game_play import play
 from update_button import button_update
+from update_display import display_update
+from reset_game import game_reset
 
 
 def cells_highlight(self):
