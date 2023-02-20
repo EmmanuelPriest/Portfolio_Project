@@ -23,6 +23,7 @@ from creating_grid import create_board_grid
 from reset_board import board_reset
 from game_play import play
 from update_button import button_update
+from reset_game import game_reset
 from highlight_cells import cells_highlight
 
 
