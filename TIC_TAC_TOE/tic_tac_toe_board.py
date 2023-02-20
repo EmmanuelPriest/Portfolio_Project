@@ -19,6 +19,7 @@ from alternate_player import switch_player
 from creating_board_display import create_board_display
 from creating_grid import create_board_grid
 from reset_board import board_reset
+from reset_game import game_reset
 
 
 class Board(kin.Tk):
