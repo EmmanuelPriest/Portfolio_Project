@@ -5,6 +5,7 @@ import tkinter as kin
 from itertools import cycle
 from tkinter import font
 from typing import NamedTuple as NT
+
 from tic_tac_toe_player import Player
 from tic_tac_toe_move import Move
 from tic_tac_toe_game import Game
